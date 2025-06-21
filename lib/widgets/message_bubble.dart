@@ -65,16 +65,16 @@ class MessageBubble extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Icon(
-                              Icons.shield,
+                              Icons.block,
                               size: 12,
-                              color: isMe ? Colors.white70 : Colors.blue[600],
+                              color: isMe ? Colors.white70 : Colors.red[600],
                             ),
                             SizedBox(width: 4),
                             Text(
-                              'Message filtered',
+                              'Message censored',
                               style: TextStyle(
                                 fontSize: 10,
-                                color: isMe ? Colors.white70 : Colors.blue[600],
+                                color: isMe ? Colors.white70 : Colors.red[600],
                                 fontStyle: FontStyle.italic,
                               ),
                             ),

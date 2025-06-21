@@ -1,15 +1,21 @@
 class FilterResult {
-  final String originalText;
+  final bool hasHate;
   final String filteredText;
   final List<String> suggestions;
-  final bool hasHate;
+  final bool shouldCensor;
+  final String originalText;
+  final String category;
   final String severity;
+  final String? reason;
 
   FilterResult({
+    this.hasHate = false,
+    this.filteredText = '',
+    this.suggestions = const [],
+    this.shouldCensor = false,
     required this.originalText,
-    required this.filteredText,
-    required this.suggestions,
-    required this.hasHate,
-    required this.severity,
+    this.category = 'none',
+    this.severity = 'none',
+    this.reason,
   });
 }
