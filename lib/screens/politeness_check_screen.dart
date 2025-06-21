@@ -36,7 +36,7 @@ class _PolitenessCheckScreenState extends State<PolitenessCheckScreen> {
 
     try {
       final response = await http.post(
-        Uri.parse('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyAB4Al1e54CsYiXKwifmF2MR8Ncc0OlsG8'),
+        Uri.parse('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY'),
         headers: {
           'Content-Type': 'application/json',
         },

@@ -364,7 +364,7 @@ IMPORTANT: The "reason" field should contain ONLY a brief, simple explanation in
 
 // Alternative service for Google Cloud Natural Language - FIXED VERSION
 class GoogleAIHateSpeechFilter {
-  static const String _googleApiKey = 'AIzaSyAB4Al1e54CsYiXKwifmF2MR8Ncc0OlsG8';
+  static const String _googleApiKey = 'YOUR_API_KEY';
   static const String _apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
   // static const String _apiUrl =
   //     'https://language.googleapis.com/v1/documents:analyzeSentiment';

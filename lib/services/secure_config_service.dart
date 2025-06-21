@@ -9,7 +9,7 @@ class SecureConfigService {
 
   // Keys for different API services
   static const String _openaiKeyName = 'openai_api_key';
-  static const String _googleKeyName = 'AIzaSyAB4Al1e54CsYiXKwifmF2MR8Ncc0OlsG8';
+  static const String _googleKeyName = 'YOUR_API_KEY';
   static const String _azureKeyName = 'azure_api_key';
 
   /// Initialize API keys (call this once when app starts or in settings)
